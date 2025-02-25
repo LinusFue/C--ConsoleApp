@@ -18,6 +18,8 @@ namespace SEW_Game.Game
         private string pacman = "C";
 
         private int leftPadding = 0;
+        
+        private int score = 0;
 
         public void Eingabe()
         {
@@ -51,16 +53,16 @@ namespace SEW_Game.Game
                 switch (zeichen)
                 {
                     case 'w':
-                        y--;
+                        if(!checkCollition(x, y - 1)) y--;
                         break;
                     case 'a':
-                        x--;
+                        if (!checkCollition(x - 1, y)) x--;
                         break;
                     case 's':
-                        y++;
+                        if(!checkCollition(x, y + 1)) y++;
                         break;
                     case 'd':
-                        x++;
+                        if(!checkCollition(x + 1, y)) x++;
                         break;
                 }
 
@@ -81,6 +83,19 @@ namespace SEW_Game.Game
             Console.ReadLine();
         }
 
+        private bool checkCollition(int x, int y)
+        {
+            if (MapLayout[y][x] == '#')
+            {
+                return true;
+            }
+            if (MapLayout[y][x] == '.')
+            {
+                score++;
+                return false;
+            }
+            return false;
+        }
 
 
         public string[] MapLayout { get; set; } = {
