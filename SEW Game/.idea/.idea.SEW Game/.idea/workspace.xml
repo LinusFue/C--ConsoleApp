@@ -7,28 +7,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ce53ae3-5fca-46a4-8aa0-cc4559bf581c" name="Changes" comment="" />
+    <list default="true" id="1ce53ae3-5fca-46a4-8aa0-cc4559bf581c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SEW Game/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SEW Game/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SEW Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SEW Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEW Game/Game/MainGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SEW Game/Game/MainGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEW Game/Menu/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SEW Game/Menu/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEW Game/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SEW Game/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/ohnrz/Desktop/PacManLeon/SEW Game/SEW Game/Game/MainGame.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ohnrz/Desktop/PacManLeon/SEW Game/SEW Game/Game/MainGame.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ohnrz/Desktop/PacManLeon/SEW Game/SEW Game/Menu/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ohnrz/Desktop/PacManLeon/SEW Game/SEW Game/Menu/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Executable.Unnamed.executor": "Run",
+    ".NET Project.Unnamed.executor": "Run",
+    "git-widget-placeholder": "InitialProgram",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="RunExe" factoryName=".NET Executable" nameIsGenerated="true">
-      <option name="EXE_PATH" value="" />
+    <configuration name="Unnamed" type="DotNetProject" factoryName=".NET Project" nameIsGenerated="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/SEW Game/bin/Debug/SEW Game.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SEW Game/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SEW Game/SEW Game.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
       <method v="2">
-        <option name="Build Solution" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
   </component>

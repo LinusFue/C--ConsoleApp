@@ -1,10 +1,5 @@
 ﻿using SEW_Game.Game;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SEW_Game.Game;
 
 namespace SEW_Game.Menu
 {
@@ -13,7 +8,7 @@ namespace SEW_Game.Menu
         public MainMenu() { }
 
 
-        public void PrintMenu()
+        public void printMenu()
         {
             Console.Clear();
             Console.WriteLine("####      #       ####       #       #     #     #     #");
@@ -26,6 +21,7 @@ namespace SEW_Game.Menu
 
             Console.WriteLine();
             Console.WriteLine();
+            Console.WriteLine("Highscore: " + MainGame.GetHightscore());
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Select Option: ");
@@ -34,52 +30,38 @@ namespace SEW_Game.Menu
             Console.WriteLine("r ==> Regeln");
             Console.WriteLine("s ==> Spielen");
             Console.WriteLine("x ==> Exit");
-            Console.SetCursorPosition(0, 12);
+            //Console.SetCursorPosition(0, 13);
             
             var key = Console.ReadKey(true);
-
-            MainGame game1 = new MainGame();
+            
+            MainGame game = new MainGame();
 
             switch (key.Key)
             {
                 case ConsoleKey.R:
-                    this.Regelwerk();
+                    this.regelwerk();
                     break;
 
                 case ConsoleKey.S:
-                    game1.PrintMap(game1.MapLayout);
-                    game1.Game();
+                    game.Start();
                     break;
 
                 case ConsoleKey.X:
                     Environment.Exit(0);
                     break;
-
-                default:
-                    Console.WriteLine("Fehler!!!");
-                    Console.ReadKey(true);
-                    this.PrintMenu();
-                    break;
             }
         }
 
-        public void Regelwerk()
+        public void regelwerk()
         {
             Console.Clear();
             Console.WriteLine("Regeln:");
-            Console.WriteLine("-------");
+            Console.WriteLine("Du bist Pac Man.");
             Console.WriteLine();
-            Console.WriteLine("Du bist Pac Man und dein Ziel ist es die Punkte auf dem Spielfeld zu essen.");
-            Console.WriteLine("Verwende folgende Tasten zur Steuerung:");
-            Console.WriteLine("W....nach oben bewegen");
-            Console.WriteLine("A....nach links bewegen");
-            Console.WriteLine("S....nach unten bewegen");
-            Console.WriteLine("D....nach rechts bewegen");
             Console.WriteLine();
             Console.Write("Drücke eine beliebige Taste um zurück zu kommen.");
             Console.ReadKey();
-            this.PrintMenu();
-
+            this.printMenu();
         }
 
         public void Testauswahl()

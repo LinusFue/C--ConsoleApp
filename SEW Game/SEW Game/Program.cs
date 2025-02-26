@@ -14,20 +14,8 @@ namespace SEW_Game
         static void Main(string[] args)
         {
 
-            MainMenu menu1 = new MainMenu();
-            menu1.PrintMenu();
-
-            
-        }
-
-        public static StreamReader GetFile()
-        {
-            string filePath = "highscore.txt";
-            if (!File.Exists(filePath))
-            {
-                File.Create(filePath).Close();
-            }
-            return new StreamReader(filePath);
+            MainMenu menu = new MainMenu();
+            menu.printMenu();
         }
     }
 }
