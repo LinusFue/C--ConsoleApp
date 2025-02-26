@@ -8,12 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ce53ae3-5fca-46a4-8aa0-cc4559bf581c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SEW Game/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SEW Game/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SEW Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SEW Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SEW Game/Game/MainGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SEW Game/Game/MainGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEW Game/Menu/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SEW Game/Menu/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEW Game/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SEW Game/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
